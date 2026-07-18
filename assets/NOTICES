@@ -1152,6 +1152,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 async
 collection
+mime
 stream_channel
 typed_data
 
@@ -1379,6 +1380,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
 cloud_firestore_web
+firebase_auth
+firebase_auth_platform_interface
+firebase_auth_web
 firebase_core
 firebase_core_platform_interface
 firebase_storage
