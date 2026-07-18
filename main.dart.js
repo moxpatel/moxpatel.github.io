@@ -8367,7 +8367,7 @@ else if(o==="charitra")r=p
 else if(o==="full")s=p
 else if(B.c.bI(o,"category")){n=A.fq(B.c.bx(o,8),m)
 k.m(0,n==null?0:n,p)}else if(B.c.bI(o,"name")){n=A.fq(B.c.bx(o,4),m)
-j.m(0,n==null?0:n,p)}else if(B.c.bI(o,"village")){n=A.fq(B.c.bx(o,7),m)
+j.m(0,n==null?0:n,p)}else if(B.c.bI(o,"place")){n=A.fq(B.c.bx(o,5),m)
 i.m(0,n==null?0:n,p)}else if(B.c.bI(o,"book")){n=A.fq(B.c.bx(o,4),m)
 h.m(0,n==null?0:n,p)}else if(B.c.bI(o,"sr")){n=A.fq(B.c.bx(o,2),m)
 g.m(0,n==null?0:n,p)}}l=new A.awc()
@@ -8430,7 +8430,7 @@ case"category":if(l.length!==0)r.e.push(l)
 break
 case"name":if(l.length!==0)r.f.push(l)
 break
-case"village":if(l.length!==0)r.r.push(l)
+case"place":if(l.length!==0)r.r.push(l)
 break
 case"book":r.w=l
 break
@@ -49382,7 +49382,7 @@ $0(){},
 $S:0}
 A.a1V.prototype={
 H(a){var s=t.KB
-s=A.W(new A.T(A.b([B.Yc,B.XZ,B.Y2,B.Y7],t.cq),new A.aCf(),s),s.i("ai.E"))
+s=A.W(new A.T(A.b([B.Yc,B.XZ,B.Y2,B.Y8],t.cq),new A.aCf(),s),s.i("ai.E"))
 return new A.bl(B.pO,A.cB(s,B.r,B.p,B.t),null)}}
 A.aCf.prototype={
 $1(a){var s=null,r=A.aI(10),q=a.c,p=q.b4(0.08),o=A.aI(10),n=A.di(q.b4(0.2),-1,1)
@@ -49838,7 +49838,7 @@ q.push(B.a5L)
 q.push(B.eI)
 q.push(B.a5N)
 q.push(B.C8)
-B.b.K(q,new A.T(A.b([B.XX,B.Y3,B.XW,B.Ye,B.Ya,B.Y8,B.Y5,B.Y0],p),new A.ayo(),o))
+B.b.K(q,new A.T(A.b([B.XX,B.Y3,B.XW,B.Ye,B.Ya,B.Y7,B.Y5,B.Y0],p),new A.ayo(),o))
 q=A.Vi(A.cB(q,B.aa,B.p,B.aA),null)
 return A.Op(A.b([A.kP(B.a5U,new A.ayp(this.a),null)],r),q,new A.c_(s,B.o),B.a6h)},
 $S:62}
@@ -109624,8 +109624,8 @@ B.Y3=new A.cn("[charitra]","Summary",B.z)
 B.Y4=new A.cn("charitra","Summary",B.z)
 B.Y5=new A.cn("[book]","Book name \u2014 single value",B.aH)
 B.Y6=new A.cn("heading","Story title",B.z)
-B.Y7=new A.cn(B.lT,"Upload Image",B.d0)
-B.Y8=new A.cn("[village]","Place \u2014 repeatable",B.c1)
+B.Y7=new A.cn("[place]","Place \u2014 repeatable",B.c1)
+B.Y8=new A.cn(B.lT,"Upload Image",B.d0)
 B.Y9=new A.cn("full","Full story content",B.z)
 B.Ya=new A.cn("[name]","Character \u2014 repeatable",B.d0)
 B.Yb=new A.cn("category1, category2, \u2026","Subject / category",B.aL)
@@ -110997,7 +110997,7 @@ return B.FI})
 s($,"bfG","aNX",()=>new A.Tn())
 s($,"bbN","aWs",()=>A.aLp(0))
 s($,"bbM","aWr",()=>A.aLo(0))
-s($,"bgR","aZj",()=>A.fb("\\[(title|charitra|event|category|name|village|book|sr|para|full)\\]",!1,!1))
+s($,"bgR","aZj",()=>A.fb("\\[(title|charitra|event|category|name|place|book|sr|para|full)\\]",!1,!1))
 s($,"bdJ","Bs",()=>new A.adv(B.c.gb5("")?".":""))
 s($,"bbL","aWq",()=>A.b3w(null))
 s($,"bck","aNE",()=>new A.C())
